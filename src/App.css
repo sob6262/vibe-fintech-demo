@@ -1,2 +1,66 @@
-main {
+/* General page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+div {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Transaction list */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
 }
